@@ -1,0 +1,511 @@
+body{
+    background: url("../images/zavod.jpg") no-repeat center top;
+    background-attachment: fixed;
+    height: 3000px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    margin-top: 70px;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+h1,h2,h3,h4{
+    font-size: 3vmin;
+    font-weight: bold;
+    color: #333;
+}
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ff1838;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+.navbar-inverse{
+    width: 100%;
+    background-color: rgb(52 73 94);
+    border-color: rgb(52 73 94);
+}
+.centered {
+    text-align: center;
+}
+.navbar-header > .navbar-brand{
+    display: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.navbar-nav{
+    float: none;
+    text-align: center;
+}
+.navbar-nav li{
+    float: none;
+    display: inline-block;
+}
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: deepskyblue;
+}
+.navbar-inverse .navbar-header .navbar-brand:hover {
+    color: #2aabd2;
+}
+.header {
+    background-color: #fcfcfc;
+    margin-top: 20px;
+    padding-top: 40px;
+    text-align: center;
+    background-position: center center;
+    min-height: 150px;
+    width: 100%;
+
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-size: 100%;
+}
+.header h1{
+    font-size: 3vmin;
+    font-weight: initial;
+}
+.header h2{
+    font-weight: normal;
+    font-size: 2vmin;
+    color: #555;
+}
+.wrapper1{
+    position: center;
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.wrapper1 .container{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding:20px;
+}
+.container_inner{
+    margin: 0 auto;
+    width: 100%;
+}
+.wrapper1 >.container > div{
+    float: left;
+    word-wrap: break-word;
+}
+.discription{
+    height: 100%;
+    padding: 5% 0 5% 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.discription_inner{
+    height: 100%;
+    padding: 6%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.9);
+    box-sizing: border-box;
+    color: #333;
+    text-align: center;
+    font-size: 3vmin;
+}
+.discription_border{
+    padding-bottom: 2%;
+    border-bottom: 4px;
+    border-color: #0090db;
+    border-bottom-style: solid;
+}
+.about_us h1{
+     text-align: center;
+ }
+.about_us p{
+   padding-top: 2%;
+    padding-bottom: 2%;
+}
+.about_us {
+    color: #333;
+background-color: #fcfcfc;
+    font-size: 2vmin;
+    padding: 2% 5% 2% 5%;
+    margin: 0 auto;
+}
+.product{
+    color: white;
+    background-color: #fcfcfc;
+    font-size: 2vmin;
+    font-weight: 100;
+    padding: 2% 5% 2% 5%;
+    margin: 0 auto;
+}
+.product h1{
+    text-align: center;
+}
+.product_inner{
+    text-align: center;
+    background-color: rgb(52 73 94);
+    padding: 1% 1% 1% 1%;
+    margin: 2% 5% 2% 5%;
+}
+.product_table > thead > tr > th{
+    text-align: center;
+    font-size: 3vmin;
+    font-weight: bold;
+}
+.product_table{
+    height: 100%;
+    width: 100%;
+    align: center;
+    margin: 0 ;
+}
+.btn-block{
+    width: max-content;
+    height: 100%;
+    font-size: 2vmin;
+}
+.product_table > tbody > tr > td{
+    align: center;
+}
+.price{
+    text-align: center;
+    background-color: #fcfcfc;
+    font-size: 2vmin;
+    font-weight: 100;
+    padding: 2% 5% 2% 5%;
+    margin: 0 auto;
+}
+.price_inner{
+    text-align: center;
+    margin: 2% 5% 2% 5%;
+}
+.contact{
+    text-align: center;
+    background-color: #fcfcfc;
+    font-size: 2vmin;
+    font-weight: 100;
+    padding: 2% 5% 2% 5%;
+    margin: 0 auto;
+}
+.contact_inner{
+    text-align: left;
+    margin: 2% 5% 2% 5%;
+
+}
+.contact_inner h2, h3 {
+    font-weight: normal;
+    font-size: 2.5vmin;
+}
+.order{
+    text-align: center;
+    background-color: #fcfcfc;
+    padding: 2% 5% 2% 5%;
+    margin: 0 auto;
+}
+.order_inner{
+    background-color: rgba(0,0,0,0.05);
+    margin: 2% 20% 2% 20%;
+    padding: 0;
+}
+.application_header{
+    margin: 0 auto;
+    padding: 2% 2% 2% 2%;
+    height: 100%;
+    background-color: rgb(52 73 94);
+    color: white;
+    font-size: 2vmin;
+    font-weight: bold;
+}
+.application{
+    margin: 0 auto;
+    padding: 2% 3% 2% 3%;
+    align-items:center;
+}
+.application > .btn-block{
+    width: 100%;
+    height: 100%;
+}
+.order-fields > .field{
+    text-align: left;
+    color: #555555;
+    font-weight: normal;
+    margin: 2% 0 2% 0 ;
+    background-color: white;
+    font-size: 1.8vmin;
+}
+.field > input{
+    padding: 1% 2% 1% 2%;
+    height: 100%;
+    width: 100%;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #999999;
+    width: 100%;
+    height: 100%;
+}
+.agreement-text{
+    font-size: 2vmin;
+    margin-top: 2%;
+    color: #555555;
+    text-align: center;
+    font-size: 1.5vmin;
+}
+.open_agreement{
+    color: #555555;
+text-decoration: underline;
+}
+.open_agreement:hover{
+color: #0090db ;
+}
+.maps, .maps_inner{
+    margin: 0 auto;
+    padding: 0;
+}
+.footer {
+    background-color: #fcfcfc;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+    background-position: center center;
+    min-height: 150px;
+    width: 100%;
+}
+
+
+.footer h1{
+    font-size: 2.5vmin;
+}
+.footer h2{
+    font-weight: normal;
+    font-size: 2vmin;
+}
+
+
+#agreement{
+    display: none;
+    background-color: rgba(0,0,0,0.4);
+    color: #555;
+    font-size: 1.5vmin;
+}
+.agreement_footer{
+    color: #333333;
+    font-weight: bold;
+}
+.application1,.application2,.application3{
+    background-color: rgba(0,0,0,0.4);
+}
+.application_body h2{
+    font-weight: normal;
+    font-size: 2vmin;
+    margin-bottom: 20px;
+}
+.application_fields{
+    color: #333333;
+    font-size: 1.8vmin;
+}
+.modal-header > h2{
+    font-size: 2vmin;
+}
+.application_fields > .field {
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+@media (max-width: 640px){
+h1 {
+    font-size: 5vmin;
+    }
+h2{
+        font-size: 3vmin;
+    }
+.wrapper1{
+    padding:10%;
+}
+.discription_inner{
+    font-size: 4vmin;
+    }
+.discription{
+    padding: 5% 0% 5% 0%;
+    width: 100%;
+}
+.button {
+    padding: 5% 0% 5% 0%;
+    width: 100%;
+}
+.about_us{
+    font-size: 3vmin;
+}
+.product_table{
+    overflow-x: scroll;
+    display: block;
+    font-size: 3vmin;
+}
+.price_inner img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.application_header{
+    font-size: 4vmin;
+}
+    .application > .btn-block{
+        font-size: 3vmin;
+    }
+    .contact_inner{
+        text-align: center;
+    }
+    .contact_inner h2, h3 {
+        font-size: 4vmin;}
+    .footer h1{
+        font-size: 5vmin;
+    }
+    .footer h2{
+        font-size: 4vmin;
+    }
+ .header h1{
+        font-size: 5vmin;
+    }
+ .header h2{
+        font-size: 4vmin;}
+    .navbar-nav{
+        float: top;
+        text-align: center;
+    }
+    .navbar-nav li{
+        float: top;
+        display: block;
+    }
+    .navbar-header > .navbar-brand{
+        display: block;
+    }
+    .agreement_header > h2{
+        font-size: 3vmin;
+    }
+    #agreement{
+        font-size: 4vmin;}
+    .order-fields > .field{
+        font-size: 3vmin;}
+    .agreement-text{
+        font-size: 2.5vmin;
+    }
+    .order-button{
+        font-size: 3vmin;
+    }
+    .order_inner{
+        margin: 2% 2% 2% 2%;
+    }
+    .modal-header > h2{
+        font-weight: bold;
+        font-size: 5vmin;
+    }
+    .application_body h2{
+        font-size: 4vmin;
+    }
+    .application_fields{
+        font-size: 3vmin;
+    }
+    .application-button{
+        font-size: 3vmin;
+    }
+    .agreement-body{
+        font-size: 3vmin;
+    }
+}
+
+
+
+
+@media (max-height: 800px){
+.header h1{
+    font-size: 5vmin;
+    }
+    .header h2{
+        font-size: 3vmin;
+    }
+    .wrapper1{
+        padding:3%;
+    }
+    .discription_inner{
+        font-size: 4vmin;
+    }
+    .discription{
+        padding: 5% 0% 5% 0%;
+        width: 100%;
+    }
+    .button {
+        padding: 5% 0% 5% 0%;
+        width: 100%;
+    }
+    .about_us{
+        font-size: 3vmin;
+    }
+    .about_us h1 {
+        font-size: 5vmin;
+    }
+    .product h1{
+        font-size: 5vmin;
+    }
+    .product_table{
+        overflow-x: scroll;
+        display: block;
+        font-size: 3vmin;
+    }
+    .price_inner img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .order_inner div{
+        font-size: 3vmin;
+    }
+    .application > .btn-block{
+        font-size: 3vmin;
+    }
+    .contact_inner{
+        text-align: center;
+    }
+    .contact_inner h2, h3 {
+        font-size: 4vmin;}
+    .footer h1{
+        font-size: 5vmin;
+    }
+    .footer h2{
+        font-size: 3vmin;
+    }
+    .agreement_header > h2{
+        font-size: 4vmin;
+    }
+    #agreement{
+        font-size: 3vmin;}
+}
+
+/*.box-shadow{*/
+    /*background-color: #fcfcfc;*/
+    /*margin: 0 auto;*/
+    /*font-size: 3vmin;*/
+    /*color: rgba(255, 255, 255, 0);*/
+    /*box-shadow: inset 0.01vmin 1.5vmin 2vmin 0vmin rgba(0,0,0,0.1);*/
+/*}*/
+
